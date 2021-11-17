@@ -1,0 +1,66 @@
+.app_title {
+    margin-top: 150px;
+    width: 400px;
+    height: 300px;
+    background-color: #cccccc;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border: 3px groove white;
+    position: relative;}
+
+.amount_title{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Baskerville Old Face";
+    margin-top: 25px;
+}
+
+
+
+.btnBlock{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnBlock button{
+    width:120px;
+    height: 30px;
+    font-size: 20px;
+    margin: 45px 5px 0 0 ;
+    border-radius: 8px;
+    background-color: #66bf3c;
+    text-align: center;
+    color: white;
+}
+
+
+.coursesBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid white;
+    border-radius: 8px;
+    padding: 5px;
+    position: absolute;
+    left:3px;
+    top:3px;
+
+}
+
+.backBtn{
+    position: absolute;
+    left:12px;
+    top:10px
+}
+
+.backBtn button{
+    width:70px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: indianred;
+    text-align: center;
+    color: white;
+}

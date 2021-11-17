@@ -1,0 +1,29 @@
+.oneCourse{
+    width:125px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rebeccapurple;
+    margin-left: 2px;
+    background-color: #9f99a8;
+    color: white;
+    font-size: 15px;
+
+
+
+}
+
+.oneCourse span{
+    margin-bottom: 10px;
+}
+
+.coursesBlock{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.CoursesTablet{
+    display: flex;
+
+}
